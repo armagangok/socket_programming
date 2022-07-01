@@ -13,7 +13,3 @@ PORT = 5050
 def getIp():
   SERVER = socket.gethostbyname(socket.gethostname())
   return SERVER
-
-
-
-
