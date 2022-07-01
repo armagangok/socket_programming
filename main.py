@@ -1,7 +1,7 @@
-from src.server import *
+import src.server as myServer
 
 def main():
-  print(getIp())
+  myServer.start()
   
   
 main()
