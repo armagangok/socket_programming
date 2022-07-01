@@ -39,13 +39,10 @@ def handleClient(connection, adress):
     if message == DISCONNECT_MESSAGE:
       isConnected = False
       
-      
-  connection.close()
-    
+  connection.close()    
 
-    
-  
-
+##
+##
     
 def start():
   server.listen()
