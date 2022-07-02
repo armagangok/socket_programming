@@ -7,7 +7,7 @@ HEADER = 64
 PORT = 5050
 FORMAT =  "utf-8"
 DISCONNECT_MESSAGE =  "!DISCONNECT"
-SERVER = socket.gethostbyname(socket.gethostname())
+SERVER = socket.gethostbyname(socket.gethostname())  # to get ip address programmatically
 ADDRESS =   (SERVER,PORT)
 
 
@@ -22,7 +22,6 @@ server.bind(ADDRESS)
 
 
 
-# to get ip address programmatically
 
   
 
